@@ -5,6 +5,8 @@ public class TaisTrapets{
 			throw new RuntimeException("Sobimatu");}
 		if(alus<=0){
 			throw new RuntimeException("Sobimatu");}
+		if(hypotenuus<=0){
+			throw new RuntimeException("Sobimatu");}
 		if(korgus<=0){
 			throw new RuntimeException("Sobimatu");}
 		a=kylg;
