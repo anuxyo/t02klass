@@ -26,4 +26,21 @@ public class TaisTrapets{
 	public double keskloik(){
 		return ((a*a)+(x*h/2)/h);
 	}
+
+/*VÄLJUND
+taisnurksete trapetsite pindalad on:
+8.0 ruutsentimeetrit
+6.15 ruutsentimeetrit
+7.9 ruutsentimeetrit
+
+taisnurksete trapetsite ymbermoodud on:
+12.0 sentimeetrit
+12.5 sentimeetrit
+14.3 sentimeetrit
+
+taisnurksete trapetsite keskloigud on:
+4.5 sentimeetrit
+2.75 sentimeetrit
+4.65 sentimeetrit
+*/
 }
