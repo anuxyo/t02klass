@@ -1,6 +1,6 @@
 public class TaisTrapets{
-	double a, x, b, h, t;
-	public TaisTrapets(double kylg, double alus, double hypotenuus, double korgus, double teravnurk){
+	double a, x, b, h;
+	public TaisTrapets(double kylg, double alus, double hypotenuus, double korgus){
 		if(kylg<=0){
 			throw new RuntimeException("Sobimatu");}
 		if(alus<=0){
@@ -9,14 +9,12 @@ public class TaisTrapets{
 			throw new RuntimeException("Sobimatu");}
 		if(korgus<=0){
 			throw new RuntimeException("Sobimatu");}
-		if(teravnurk>=90){
-			throw new RuntimeException("Sobimatu");}
-			
+	
 		a=kylg;
 		x=alus;
 		b=hypotenuus;
 		h=korgus;
-		t=teravnurk;
+
 	}
 	public double pindala(){
 		return (a*h)+(x*h/2);
@@ -30,10 +28,7 @@ public class TaisTrapets{
 	public double keskloik(){
 		return ((a+(a+x))/2);
 	}
-	/*Leian täisnurkse trapetsi nürinurga suuruse kraadides*/
-	public double nyrinurk(){
-		return (180-t);
-	}
+
 
 /*VÄLJUND
 taisnurksete trapetsite pindalad on:
@@ -51,9 +46,5 @@ taisnurksete trapetsite keskloigud on:
 2.0 sentimeetrit
 2.65 sentimeetrit
 
-taisnurksete trapetsite nyrinurgad on:
-134.5 kraadi
-168.0 kraadi
-119.4 kraadi
 */
 }
